@@ -1,0 +1,9 @@
+
+## Organizational Unit (OUs)
+
+The following OUs was created in local.domain:
+
+** Users - Contain all lab users accounts
+** Groups - Contains security and disbribution groups 
+** Computers - Contain all lab computers to the domain 
+
