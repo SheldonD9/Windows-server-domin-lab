@@ -1,0 +1,47 @@
+# Windows Server Domain Lab 
+
+# Purpose 
+This VM description 
+- Operating system 
+ Windows (Windows Server 2025 Datacenter Azure Edition)
+-VM size: Standard E2s v3 (2 16 GIB)
+Region: vnet-eastus2/snet-eastus2-1
+-Roles Installed: Acive Directory Domain Services (AD DS), DNS
+Domain name: local.Domain
+
+__ Lab Steps / Setup
+Deployed Azure VM running windows Server 2025
+Installed Active Directory Domain Service (AD DS) role 
+Promoted the server to a domain controller for the domain Local.domain 
+Created Organizational Units (OUs) Branch and Branch1
+- Users
+- Groups
+- Computers 
+
+Verfied AD DS and DNS roles in Server Manager
+Confirmed users and gruoups in Active Directory users and computers (ADUC)
+Successfully tested domain logins for lab users
+
+
+Screenshot 
+Server Manager showing AD DS & DNS 
+ADUC showing domain, OUs and users 
+Domain login test 
+
+Validation 
+-AD DS and DNS roles installed successfully.
+-Doomain Local.domain exist and functions correctly 
+OUs, users, and groups created and planned.
+Domain login tested successfully.
+
+
+
+# Lab Completion 
+
+- All steps completed sucessfully 
+- Azure VM deployment and configured with windows sever 
+- Active Directory Domain Service (AD DS) and role installed.
+- Local domain Local.doamin created with Oraganizaitonal Unites (OUs), users, and groups.
+- Domain login tested scussfully.
+- Screenshot provided to verity setup and configuration
+
